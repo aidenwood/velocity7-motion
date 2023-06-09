@@ -33,31 +33,32 @@ export const Brands = () => (
           <div className="w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
             <div className="flex flex-wrap -m-4">
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
-                <img src='RaywhiteLogo'  />
+                <RaywhiteLogo />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
-                <img src="BallLogo" />
+                <BallLogo />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
-                <img src="EsteemLogo" />
+                <EsteemLogo />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
-                <img src="ImmersiveLogo" />
+                <ImmersiveLogo />
               </div>
+
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
-                <img src="TSLogo" />
+                <TSLogo />
               </div>
               <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
-                <img src="NWLogo" />
+                <NWLogo />
               </div>
               <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
-                <img src="BoogieLogo" />
+                <BoogieLogo />
               </div>
               <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
-                <img src="HairLogo" />
+                <HairLogo />
               </div>
               <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
-                <img src="SnacksLogo" />
+                <SnacksLogo />
               </div>
             </div>
           </div>
