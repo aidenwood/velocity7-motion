@@ -1,11 +1,14 @@
 import { motion } from "framer-motion";
 
-import { AmazonLogo } from "../assets/logos/AmazonLogo";
-import { DropboxLogo } from "../assets/logos/DropboxLogo";
-import { NetflixLogo } from "../assets/logos/NetflixLogo";
-import { SlackLogo } from "../assets/logos/SlackLogo";
-import { SpotifyLogo } from "../assets/logos/SpotifyLogo";
-import { StripeLogo } from "../assets/logos/StripeLogo";
+import { RaywhiteLogo } from "../assets/images/client-logos/ray-white.svg";
+import { BallLogo } from "../assets/images/client-logos/ball-realty.svg";
+import { EsteemLogo } from "../assets/images/client-logos/estem.svg";
+import { ImmersiveLogo } from "../assets/images/client-logos/immersive-structures.svg";
+import { TSLogo } from "../assets/images/client-logos/ts.svg";
+import { NWLogo } from "../assets/images/client-logos/nw-funding.svg";
+import { BoogieLogo } from "../assets/images/client-logos/boogie-collective.svg";
+import { HairLogo } from "../assets/images/client-logos/brie-hair.svg";
+import { SnacksLogo } from "../assets/images/client-logos/snacks.svg";
 
 export const Brands = () => (
   <section className="py-12 sm:py-24 bg-customDarkBg1 w-full mt-16 mb-16">
@@ -30,23 +33,31 @@ export const Brands = () => (
           <div className="w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
             <div className="flex flex-wrap -m-4">
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
-                <AmazonLogo />
+                <img src='RaywhiteLogo'  />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
-                <DropboxLogo />
+                <img src="BallLogo" />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
-                <NetflixLogo />
+                <img src="EsteemLogo" />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
-                <StripeLogo />
+                <img src="ImmersiveLogo" />
               </div>
-
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
-                <SpotifyLogo />
+                <img src="TSLogo" />
               </div>
               <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
-                <SlackLogo />
+                <img src="NWLogo" />
+              </div>
+              <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
+                <img src="BoogieLogo" />
+              </div>
+              <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
+                <img src="HairLogo" />
+              </div>
+              <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
+                <img src="SnacksLogo" />
               </div>
             </div>
           </div>
