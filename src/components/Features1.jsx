@@ -21,26 +21,26 @@ export const Features1 = () => {
         <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
           <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-              <span className="custom-block-subtitle">Rapidly build high-conversion funnels</span>
+              <span className="custom-block-subtitle">Brand Strategy</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-                50+ Components.
+                Conversion by Design.
               </h2>
               <p className="mb-10 text-customGrayText leading-loose">
                 Data-driven brand strategies that align with your target market naturally,
-                avoiding any unnesessary marketing costs and future design churn.
+                  avoiding any unnesessary marketing costs and future design churn.
               </p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>AI / Automation ready components.</span>
+                  <span>Brand Design for the next age of IT</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Use any framework without losing performance.</span>
+                  <span>Design-focus on conversion / tracking</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>0kb render-blocking js with hydration.</span>
+                  <span>Competitive analysis & agile research</span>
                 </li>
               </ul>
             </div>

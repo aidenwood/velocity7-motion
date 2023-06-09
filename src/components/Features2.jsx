@@ -38,25 +38,26 @@ export const Features2 = () => (
               Web3 Design & Development
             </h4>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              30+ Integrations.
+              Launch to the edge.
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
               Trying to run a business in the land of "has anyone got any service?", 
               you'll need a blazin' fast site to do that. We've spent 5 years 
-              developing Velocity7 into one of the most powerful themes around.
+              developing Velocity7 so you don't have too. Out-performing some of the 
+              biggest names in the industry and infinitely extendable.
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>E-Commerce and Online-Ordering built-in.</span>
+                <span>Collaborative environment</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Pull content or data from a .csv.</span>
+                <span>Smart issue categorization</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Infinitely extendable with any framework / NPM.</span>
+                <span>Customizable notifications</span>
               </li>
             </ul>
           </div>

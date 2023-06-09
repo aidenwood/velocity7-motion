@@ -1,14 +1,11 @@
 import { motion } from "framer-motion";
 
-import { RaywhiteLogo } from "../assets/images/client-logos/ray-white.svg";
-import { BallLogo } from "../assets/images/client-logos/ball-realty.svg";
-import { EsteemLogo } from "../assets/images/client-logos/estem.svg";
-import { ImmersiveLogo } from "../assets/images/client-logos/immersive-structures.svg";
-import { TSLogo } from "../assets/images/client-logos/ts.svg";
-import { NWLogo } from "../assets/images/client-logos/nw-funding.svg";
-import { BoogieLogo } from "../assets/images/client-logos/boogie-collective.svg";
-import { HairLogo } from "../assets/images/client-logos/brie-hair.svg";
-import { SnacksLogo } from "../assets/images/client-logos/snacks.svg";
+import { AmazonLogo } from "../assets/logos/AmazonLogo";
+import { DropboxLogo } from "../assets/logos/DropboxLogo";
+import { NetflixLogo } from "../assets/logos/NetflixLogo";
+import { SlackLogo } from "../assets/logos/SlackLogo";
+import { SpotifyLogo } from "../assets/logos/SpotifyLogo";
+import { StripeLogo } from "../assets/logos/StripeLogo";
 
 export const Brands = () => (
   <section className="py-12 sm:py-24 bg-customDarkBg1 w-full mt-16 mb-16">
@@ -33,6 +30,7 @@ export const Brands = () => (
           <div className="w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
             <div className="flex flex-wrap -m-4">
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
+<<<<<<< HEAD
                 <img src={RaywhiteLogo} alt="React Logo" />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
@@ -43,8 +41,22 @@ export const Brands = () => (
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
                 <img src={ImmersiveLogo} alt="React Logo" />
+=======
+                <AmazonLogo />
+              </div>
+              <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
+                <DropboxLogo />
+              </div>
+              <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
+                <NetflixLogo />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
+                <StripeLogo />
+>>>>>>> parent of 225e775 (add files and content)
+              </div>
+
+              <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
+<<<<<<< HEAD
                 <img src={TSLogo} alt="React Logo" />
               </div>
               <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
@@ -58,6 +70,12 @@ export const Brands = () => (
               </div>
               <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
                 <img src={SnacksLogo} alt="React Logo" />
+=======
+                <SpotifyLogo />
+              </div>
+              <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
+                <SlackLogo />
+>>>>>>> parent of 225e775 (add files and content)
               </div>
             </div>
           </div>
