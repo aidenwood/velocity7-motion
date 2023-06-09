@@ -12,7 +12,7 @@ export const Hero = () => {
       className="w-screen  flex justify-center items-center bg-customDarkBg1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
       id="home"
     >
-      <div className="w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center pt-16 md:pt-16 lg:pt-20 text-center">
+      <div className="w-full md:w-[768px] xl:w-[1199px] flex flex-col justify-center items-center pt-16 md:pt-16 lg:pt-20 text-center">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -42,7 +42,7 @@ export const Hero = () => {
         >
           <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-4 sm:px-8 md:px-16">
             Combining knowledge and experience from 10+ years building websites & 6+ years managing global marketing campaigns. 
-            Buckle up for launch space-cowboy, we're going to the edge.
+            Buckle up for launch <i>space-cowboy</i>, we're going to the <i>edge</i>.
           </div>
         </motion.div>
         <motion.div
