@@ -9,7 +9,6 @@ const navbarLinks = [
   { label: "Features", href: "#features", ariaLabel: "Features" },
   { label: "Results", href: "#feedback", ariaLabel: "Results" },
   { label: "Pricing", href: "#pricing", ariaLabel: "Pricing" },
-  { label: "FAQ", href: "#FAQ", ariaLabel: "FAQ" },
 ];
 
 export const Navbar = () => {
@@ -39,7 +38,7 @@ export const Navbar = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
-          exit={{ opacity: 0 }}
+          exit={{ duration: 0.3 }}
         >
           <div className="hidden lg:flex h-full pl-12 pb-2">
             {navbarLinks.map(({ href, label, ariaLabel }) => (
@@ -64,12 +63,12 @@ export const Navbar = () => {
             <a
               className="text-white custom-border-gray rounded-xl
            bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-              href="https://github.com/matt765/Tidestream"
+              href="https://g2ok5807scs.typeform.com/to/tCmzlDza"
               target="_blank"
-              aria-label="source code"
+              aria-label="Book a call"
             >
               <GithubIcon />
-              <span className="pt-px">Source code</span>
+              <span className="pt-px">Book</span>
             </a>
           </div>
         </motion.div>
@@ -110,11 +109,11 @@ export const Navbar = () => {
               <a
                 className="text-white custom-border-gray rounded-xl
            bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-                href="https://github.com/aidenwood"
+                href="https://g2ok5807scs.typeform.com/to/tCmzlDza"
                 target="_blank"
               >
                 <GithubIcon />
-                Source code
+                Book
               </a>
             </div>
           </motion.div>

@@ -32,15 +32,17 @@ export const FeaturesDiagonal = () => {
         <div className=" 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center bg-customDarkBg1 pt-12 lg:pt-24 pb-8 lg:pb-20 mx-auto lg:flex-row flex-col">
           <div className="w-3/4 lg:w-1/2 flex flex-col lg:mx-unset mx-auto">
             <span className="custom-block-subtitle">
-              Accelerate Your Success
+              Accelerating Your Success
             </span>
             <h2 className="mt-10 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Helping businesses grow faster.
+              Turn around in 21 days.
             </h2>
             <p className="mb-16 text-customGrayText leading-loose">
-              Pre-made components and layouts let you kickstart your projects faster, backed with preinstalled
-              integrations to make real business use of your site as soon as possible. The most time and cost 
-              consuming parts of digital business, all in one package. 
+              We understand slow, legacy frameworks trap businesses in certain ways. 
+              Velocity is ready to catch your fall like a hot valentine. Almost as if it were made for you.
+              Our framework can be extended with any new custom component or npm easily.
+              If your brand already has a website, you'll most likely have the required assets and copy.
+              Meaning we can migrate you to Velocity7 and customise the site for your brand in only 21 days. 
             </p>
             <div
               className="w-[210px] h-12 custom-button-colored mr-10 "
