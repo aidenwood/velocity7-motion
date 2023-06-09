@@ -34,16 +34,17 @@ export const Features2 = () => (
 
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-            <span className="custom-block-subtitle">
-              Make Data-Driven Decisions
-            </span>
+            <h4 className="custom-block-subtitle">
+              Web3 Design & Development
+            </h4>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Issue tracking you’ll enjoy using
+              Launch to the edge.
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              Monitor and track data issues with ease using our intuitive and
-              efficient issue tracking system. Stay ahead of potential problems
-              and improve your workflow.
+              Trying to run a business in the land of "has anyone got any service?", 
+              you'll need a blazin' fast site to do that. We've spent 5 years 
+              developing Velocity7 so you don't have too. Out-performing some of the 
+              biggest names in the industry and infinitely extendable.
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">
