@@ -37,14 +37,12 @@ export const Features2 = () => (
             <h4 className="custom-block-subtitle">
               Web3 Design & Development
             </h4>
-            <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
+            <h2 className="mt-6 mb-8 text-4xl lg:text-6xl custom-block-big-title">
               Launch to the edge.
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              Trying to run a business in the land of "has anyone got any service?", 
-              you'll need a blazin' fast site to do that. We've spent 5 years 
-              developing Velocity7 so you don't have too. Out-performing some of the 
-              biggest names in the industry and infinitely extendable.
+              Maintaining reliable conversions without churn marketing, 
+              impossible? Not at all, that's exactly what we're about. 
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">

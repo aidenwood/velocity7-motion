@@ -2,29 +2,29 @@ import { motion } from "framer-motion";
 
 import { QuoteIcon } from "../assets/icons/QuoteIcon";
 import testimonial1 from "../assets/images/testimonial1.png";
-import testimonial2 from "../assets/images/testimonial2.png";
-import testimonial3 from "../assets/images/testimonial3.png";
+import testimonial2 from "../assets/images/testimonial3.png";
+import testimonial3 from "../assets/images/testimonial2.png";
 
 const testimonialsData = [
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "The Boogie Collective",
+    customerTitle: "Organic Growth",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "Aidxn and Velocity's insanely powerful SEO allowed our business to scale to $50k / mth revenue with $0 in ad spend. Unbelievable. Gold Coast's best web designers.",
     image: testimonial1,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Ball Realty",
+    customerTitle: "Complete Brand Package",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "We moved from a 5.4 second pageload time to 0.4 second in under 2 weeks. Not to mention refreshing the entire brand with strategies across Web, Meta, Buses, Billboards, and Youtube.",
     image: testimonial2,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Esteem Clinic",
+    customerTitle: "Pageload Optimisation",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "Moving from 5.8 seconds to 1.2 seconds in 2 weeks without needing to leave Wordpress, as we have been stuck there for years. Looking to move to Velocity soon.",
     image: testimonial3,
   },
 ];
@@ -40,13 +40,13 @@ export const Testimonials = () => (
         transition={{ duration: 0.4, delay: 0.3 }}
       >
         <div className="custom-block-subtitle text-center mb-6">
-          Testimonials
+          Casestudies
         </div>
-        <div className="custom-block-big-title text-center mb-16 px-8 sm:px-24 md:px-48">
-          People like you love Tailcast
+        <div className="custom-block-big-title text-center mb-16 px-4 sm:px-8 md:px-16">
+          Proven results in the toughest industries.
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">
+        <div className="flex flex-col md:flex-row gap-4 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">
           {testimonialsData.map((testimonial, index) => (
             <div
               className="w-11/12 sm:w-4/5 md:w-[560px] lg:w-1/3 custom-border-gray-darker rounded-xl bg-customDarkBg3 flex flex-col px-6 py-4"
@@ -61,7 +61,7 @@ export const Testimonials = () => (
               <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4">
                 <img src={testimonial.image} alt="" width="45px" />
                 <div className="flex flex-col ml-4">
-                  <div className="custom-content-text-white font-medium">
+                  <div className="custom-content-text-white">
                     {testimonial.customerName}
                   </div>
                   <div className="custom-content-text-gray">

@@ -23,11 +23,11 @@ export const Features1 = () => {
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
               <span className="custom-block-subtitle">Brand Strategy</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-                Conversion by Design.
+                Conversions from Day One.
               </h2>
               <p className="mb-10 text-customGrayText leading-loose">
-                Data-driven brand strategies that align with your target market naturally,
-                  avoiding any unnesessary marketing costs and future design churn.
+                Developed over 5 years, Velocity V_7.4 helps businesses skip straight to the winners table.
+                Real estate or SaaS, Velocity7 can help you grow.
               </p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
