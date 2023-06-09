@@ -30,18 +30,6 @@ export const Brands = () => (
           <div className="w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
             <div className="flex flex-wrap -m-4">
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
-<<<<<<< HEAD
-                <img src={RaywhiteLogo} alt="React Logo" />
-              </div>
-              <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
-                <img src={BallLogo} alt="React Logo" />
-              </div>
-              <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
-                <img src={EsteemLogo} alt="React Logo" />
-              </div>
-              <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
-                <img src={ImmersiveLogo} alt="React Logo" />
-=======
                 <AmazonLogo />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
@@ -52,30 +40,13 @@ export const Brands = () => (
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
                 <StripeLogo />
->>>>>>> parent of 225e775 (add files and content)
               </div>
 
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
-<<<<<<< HEAD
-                <img src={TSLogo} alt="React Logo" />
-              </div>
-              <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
-                <img src={NWLogo} alt="React Logo" />
-              </div>
-              <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
-                <img src={BoogieLogo} alt="React Logo" />
-              </div>
-              <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
-                <img src={HairLogo} alt="React Logo" />
-              </div>
-              <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
-                <img src={SnacksLogo} alt="React Logo" />
-=======
                 <SpotifyLogo />
               </div>
               <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
                 <SlackLogo />
->>>>>>> parent of 225e775 (add files and content)
               </div>
             </div>
           </div>
