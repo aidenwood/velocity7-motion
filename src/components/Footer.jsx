@@ -15,8 +15,6 @@ const footerData = [
       "Web Development",
       "Marketing",
       "Automation",
-      "Terms & Conditions",
-      "Privacy Policy",
     ],
   },
   {
@@ -36,7 +34,7 @@ export const Footer = () => {
                 <div className="text-white mr-2 text-6xl">
                   <TailcastLogo />
                 </div>
-                <div className="text-white font-['Inter'] font-bold text-xl">
+                <div className="text-white font-['Inter'] font-bold text-4xl md:text-6xl">
                   Velocity7
                 </div>
               </div>
@@ -54,21 +52,21 @@ export const Footer = () => {
               <div className="w-36 mx-auto lg:mx-0">
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
+                  href="https://facebook.com/aidxn.design"
                 >
                   <FacebookIcon />
                 </a>
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
+                  href="https://instagram.com/aidxn.design#"
                 >
-                  <TwitterIcon />
+                  <InstagramIcon />
                 </a>
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
+                  href="https://github.com/aiden-wood"
                 >
-                  <InstagramIcon />
+                  <TwitterIcon />
                 </a>
               </div>
             </div>
@@ -108,7 +106,7 @@ export const Footer = () => {
                 </ul>
               </div>
               <div className="w-full md:w-1/3 lg:w-auto">
-                <h3 className="mb-6 text-2xl font-bold text-white">Company</h3>
+                <h3 className="mb-6 text-2xl font-bold text-white">Aidxn Design</h3>
                 <ul>
                   {footerData[2].items.map((item, i) => (
                     <li key={i} className="mb-4">

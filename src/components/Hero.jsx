@@ -40,9 +40,9 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-2 sm:px-4 md:px-8">
-            10+ years building beautiful websites. 8+ years producing content for paid ads. 6+ years managing global marketing campaigns. 
-            Buckle up <i>space-cowboy</i>, we're going to the edge.
+          <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-2 sm:px-4 md:px-8 max-w-2xl">
+            10+ years building beautiful websites. 8+ years producing video content for paid ads. 6+ years managing global marketing campaigns. 
+            Buckle up <i>space-cowboy</i>, we're going to the edge with your marketing.
           </div>
         </motion.div>
         <motion.div

@@ -5,11 +5,11 @@ import { InvitationModal } from "./InvitationModal";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 const pricingData = [
-  "Seamless integration",
-  "Real-time data visualization",
-  "Advanced predictive analytics",
-  "Collaborative environment",
-  "Responsive customer support",
+  "50+ conversion-focused components",
+  "30+ high-performance integrations",
+  "Analytics and conversion-tracking",
+  "Cookie-less user tracking and 0Auth",
+  "Responsive design for 6 device sizes",
 ];
 
 export const Pricing = () => {
@@ -23,7 +23,7 @@ export const Pricing = () => {
   return (
     <section className="w-screen flex justify-center bg-customDarkBg2 relative">
       <div className="absolute -top-16" id="pricing" />
-      <div className="pb-20 pt-12 bg-customDarkBg2  2xl:w-[1150px] lg:w-[1050px]  md:w-4/5 ">
+      <div className="pb-20 pt-12 bg-customDarkBg2  2xl:w-[1640px] lg:w-[1440px] md:w-full ">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -63,15 +63,15 @@ export const Pricing = () => {
                 </div>
               </label>
             </div>
-            <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-center mt-20">
-              <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
+            <div className="flex flex-wrap flex-col md:flex-row -mx-4 items-center mt-20">
+              <div className="w-[350px] sm:w-[380px] md:w-1/3 px-4 mb-8 lg:mb-0">
                 <div className="p-8 bg-customDarkBg3 rounded-3xl">
                   <h4 className="mb-2 text-xl font-bold font-heading text-white text-left">
                     Local Business
                   </h4>
                   <div className="flex justify-start items-end">
                     <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
-                    {isMonthly ? "$140" : "$1260"}
+                    {isMonthly ? "$220" : "$1980"}
                     </div>
                     <div className="text-gray-500">
                       {isMonthly ? "/ month" : "/ year"}
@@ -97,14 +97,14 @@ export const Pricing = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
+              <div className="w-[350px] sm:w-[380px] md:w-1/3 px-4 mb-8 lg:mb-0">
                 <div className="px-8 py-8 bg-customDarkBg3 rounded-3xl">
                   <h4 className="mb-2 2xl:mb-4 text-2xl font-bold font-heading text-white text-left">
                     National Brand
                   </h4>
                   <div className="flex justify-start items-end">
                     <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
-                      {isMonthly ? "$220" : "$1260"}
+                      {isMonthly ? "$480" : "$4320"}
                     </div>
                     <div className="text-gray-500">
                       {isMonthly ? "/ month" : "/ year"}
@@ -136,7 +136,7 @@ export const Pricing = () => {
                   </h4>
                   <div className="flex justify-start items-end">
                     <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
-                      {isMonthly ? "$360" : "$3240"}
+                      {isMonthly ? "$840" : "$7560"}
                     </div>
                     <div className="text-gray-500">
                       {isMonthly ? "/ month" : "/ year"}
