@@ -23,24 +23,24 @@ export const InvitationModal = ({ setIsOpen }) => (
           <div className="flex relative">
             <div className="w-1/2 hidden lg:inline">
               <h2 className="mt-6 mb-2 text-5xl font-bold tracking-normal text-white">
-                Book a strategy call,
+                Subscribe Now
               </h2>
               <h2 className="text-5xl font-bold tracking-normal text-customSecondary">
-                speak directly with Aiden.
+                Winter is coming
               </h2>
 
               <ul className="mb-6 text-white mt-12">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Brand Strategy, Direction and Expansion</span>
+                  <span>Vestibulum viverra</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Web Designer and Developer on the Gold Coast</span>
+                  <span>Morbi mollis metus pretium</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Marketing and AI Automation for Lead Generation</span>
+                  <span>Etiam lectus nunc, commodo</span>
                 </li>
               </ul>
             </div>
