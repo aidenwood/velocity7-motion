@@ -1,4 +1,4 @@
-# Tailcast
+# Velocity7-Motion
 
 Dark themed website template built on AstroJS, designed for single page application and landing page uses.
 
