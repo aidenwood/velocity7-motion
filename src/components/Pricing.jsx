@@ -39,9 +39,8 @@ export const Pricing = () => {
                 Velocity7 Pricing
               </h2>
               <p className="mb-6 text-customGrayText">
-                Includes license to Velocity7 website framework and the 'Design, Develop. Market, Moonshot. 
-                Monthly Package', helping your business find your perfect customer, setting your business 
-                on a trajectory for success. (Minimum 12 month plan).
+                Join the 'Moonshot plan' with Aidxn Design working behind the scenes to optimise your business for launch. 
+                We work to set you up to leave. Setting your business on a trajectory for success. (Minimum 3 month plan).
               </p>
               <label className="mx-auto bg-customDarkBg3 relative flex justify-between items-center group text-xl w-44 h-12 rounded-lg pr-36 pl-1 cursor-pointer">
                 <input
@@ -80,6 +79,8 @@ export const Pricing = () => {
 
                   <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
                     The perfect way to get started and get used to our tools.
+                    Kickstart you local SEO and lead generation funnels.
+                    1 full-day, in-person strategy session per month.
                   </p>
                   <ul className="mb-2 2xl:mb-6 text-white">
                     {pricingData.map((text, index) => (
@@ -111,7 +112,9 @@ export const Pricing = () => {
                     </div>
                   </div>
                   <p className="mt-8 mb-8 2xl:mb-12 text-gray-500 leading-loose text-left">
-                    Unlock all features and elevate your marketing analysis.
+                    Elevate your marketing direction with global scaling expertise. 
+                    For Custom Experiences and websites over 12 pages.
+                    2 full-days, in-person strategy session per month.
                   </p>
                   <ul className="mb-14 text-white">
                     {pricingData.map((text, index) => (
@@ -144,6 +147,8 @@ export const Pricing = () => {
                   </div>
                   <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
                     Includes a full-time consultant to maintain your site.
+                    For E-commerce and websites over 36 pages.
+                    4 full-day, in-person strategy session per month.
                   </p>
                   <ul className="mb-2 2xl:mb-6 text-white">
                     {pricingData.map((text, index) => (
