@@ -23,24 +23,25 @@ export const Features1 = () => {
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
               <span className="custom-block-subtitle">Brand Strategy</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-                Conversions from Day One.
+                Perfect SEO, Lead Gen and Conversions from Day One.
               </h2>
               <p className="mb-10 text-customGrayText leading-loose">
-                Developed over 5 years, Velocity V_7.4 helps businesses skip straight to the winners table.
+                Developed over 5 years, Velocity V7 (version 7.44) helps businesses skip straight to the winners table.
+                Integrated with everything you need to find and secure customers from day one with integrations like Netlify, Zapier, Slack and Stripe.
                 Real estate or SaaS, Velocity7 can help you grow.
               </p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Brand Design for the next age of IT</span>
+                  <span>30+ Conversion-Focused Integrations</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Design-focus on conversion / tracking</span>
+                  <span>Automatic sitemaps and accessibility for perfect SEO scores</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Competitive analysis & agile research</span>
+                  <span>0.2 pageload time out-of-the-box, average all clients.</span>
                 </li>
               </ul>
             </div>

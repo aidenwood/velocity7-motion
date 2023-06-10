@@ -19,7 +19,7 @@ export const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <div className="text-customSecondary text-sm sm:text-base  mb-6 sm:mt-32 mt-16  font-bold">
-            Website Theme for Australian Businesses
+            Conversion-Focused, High Performance Web Design
           </div>
         </motion.div>
         <motion.div
@@ -28,11 +28,11 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.05 }}
         >
           <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
-            <span className="inline md:hidden">Performance</span>
-            <span className="hidden md:inline">High-Performance</span>
+            <span className="inline md:hidden">Ready</span>
+            <span className="hidden md:inline">Ready</span>
           </div>
           <div className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24">
-            Website Kit.
+            for Launch.
           </div>
         </motion.div>
         <motion.div
@@ -41,8 +41,8 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-2 sm:px-4 md:px-8 max-w-2xl">
-            10+ years building beautiful websites. 8+ years producing video content for paid ads. 6+ years managing global marketing campaigns. 
-            Buckle up <i>space-cowboy</i>, we're going to the edge with your marketing.
+            10+ years building beautiful websites. 8+ years producing video content for paid ads. 6+ years launching global marketing campaigns. 
+            Buckle up <i>space-cowboy</i>, we're taking your brand to the edge.
           </div>
         </motion.div>
         <motion.div
