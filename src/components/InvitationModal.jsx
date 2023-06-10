@@ -58,7 +58,10 @@ export const InvitationModal = ({ setIsOpen }) => (
                 Join over 100+ Aussie businesses.
               </h3>
               <div className="flex flex-wrap -m-2">
-                <form netlify>
+                <form 
+                  data-netlify="true"
+                  name="pizzaOrder"
+                  >
                   <div className="w-full sm:w-4/5 p-2 mx-auto">
                     <input
                       className="px-4 py-4 w-full text-gray-500 font-medium text-center placeholder-gray-500 outline-none border bg-gray-300 border-gray-300 rounded-lg focus:ring focus:ring-indigo-300"
